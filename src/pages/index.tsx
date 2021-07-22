@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 
+import { HelloWorld } from '../components/HelloWorld';
+
 export default function Home(): JSX.Element {
   return (
     <>
@@ -8,7 +10,7 @@ export default function Home(): JSX.Element {
         <title>Início</title>
       </Head>
 
-      <h1>Hello, world!</h1>
+      <HelloWorld />
     </>
   );
 }
