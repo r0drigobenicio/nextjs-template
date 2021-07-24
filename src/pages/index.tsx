@@ -1,7 +1,11 @@
 import React from 'react';
 import Head from 'next/head';
 
-import { HelloWorld } from '../components/HelloWorld';
+import { TopContent } from '../components/TopContent';
+import { CenterContent } from '../components/CenterContent';
+import { BottomContent } from '../components/BottomContent';
+
+import { Container, Wrapper } from '../styles/pages/Home';
 
 export default function Home(): JSX.Element {
   return (
@@ -10,7 +14,14 @@ export default function Home(): JSX.Element {
         <title>Início</title>
       </Head>
 
-      <HelloWorld />
+      <Container>
+        <Wrapper>
+          <TopContent />
+          <CenterContent />
+        </Wrapper>
+
+        <BottomContent />
+      </Container>
     </>
   );
 }
