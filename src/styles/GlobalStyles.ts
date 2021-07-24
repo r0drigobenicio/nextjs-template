@@ -36,6 +36,8 @@ export default createGlobalStyle`
 
     --background-color: #f5f5f5;
     --black-color: #000;
+    --primary-gray-color: #787878;
+    --secondary-gray-color: #585858;
   }
 
   @media (min-width: 768px) {
