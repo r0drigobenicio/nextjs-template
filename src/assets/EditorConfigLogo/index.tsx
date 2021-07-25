@@ -10,13 +10,11 @@ export function EditorConfigLogo({
       version="1.1"
       id="Ebene_1"
       xmlns="http://www.w3.org/2000/svg"
-      // xmlns:xlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
       viewBox="0 0 64 64"
       width="64"
       height="64"
-      // style="enable-background:new 0 0 64 64;"
       xmlSpace="preserve"
       {...props}
     >

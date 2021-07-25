@@ -4,22 +4,17 @@ type PackageLogoProps = SVGAttributes<HTMLOrSVGElement>;
 
 export function PackageLogo({ ...props }: PackageLogoProps): JSX.Element {
   return (
-    // <?xml version="1.0" encoding="iso-8859-1"?>
-    // <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
     <svg
       version="1.1"
       id="Layer_1"
       xmlns="http://www.w3.org/2000/svg"
-      // xmlns:xlink="http://www.w3.org/1999/xlink"
       x="0px"
       y="0px"
       viewBox="0 0 511.984 511.984"
-      // style="enable-background:new 0 0 511.984 511.984;"
       xmlSpace="preserve"
       {...props}
     >
       <polygon
-        // style="fill:#F6BB42;"
         style={{ fill: '#F6BB42' }}
         points="405.315,10.656 106.66,10.656 0,117.325 0,192.652 511.984,207.221 511.984,117.325 "
       />
