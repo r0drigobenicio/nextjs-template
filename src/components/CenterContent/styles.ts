@@ -6,7 +6,7 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
 
-  gap: 4rem;
+  gap: 5rem;
 
   > p {
     font-size: 2rem;
@@ -17,9 +17,17 @@ export const Container = styled.div`
 
 export const GridWrapper = styled.div`
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  grid-template-columns: 100fr 1fr 100fr 1fr 100fr;
 
-  grid-gap: 3rem;
+  grid-gap: 3.5rem 2rem;
+
+  > hr {
+    width: 0.05rem;
+    height: 5rem;
+
+    background: var(--border-color);
+  }
 `;
 
 export const GridItem = styled.div`
@@ -38,5 +46,6 @@ export const GridItem = styled.div`
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--primary-gray-color);
+    text-align: center;
   }
 `;

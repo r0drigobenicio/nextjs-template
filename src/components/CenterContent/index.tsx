@@ -5,7 +5,7 @@ import { EslintLogo } from '../../assets/EslintLogo';
 import { PrettierLogo } from '../../assets/PrettierLogo';
 import { EditorConfigLogo } from '../../assets/EditorConfigLogo';
 import { StyledComponentsLogo } from '../../assets/StyledComponentsLogo';
-import { NpmLogo } from '../../assets/NpmLogo';
+import { PackageLogo } from '../../assets/PackageLogo';
 
 import { Container, GridWrapper, GridItem } from './styles';
 
@@ -21,11 +21,15 @@ export function CenterContent(): JSX.Element {
           <span>TypeScript</span>
         </GridItem>
 
+        <hr />
+
         <GridItem>
           <EslintLogo />
 
           <span>ESLint</span>
         </GridItem>
+
+        <hr />
 
         <GridItem>
           <PrettierLogo />
@@ -39,14 +43,18 @@ export function CenterContent(): JSX.Element {
           <span>EditorConfig</span>
         </GridItem>
 
+        <hr />
+
         <GridItem>
           <StyledComponentsLogo />
 
           <span>Styled-Components</span>
         </GridItem>
 
+        <hr />
+
         <GridItem>
-          <NpmLogo />
+          <PackageLogo />
 
           <span>Next-Images</span>
         </GridItem>
