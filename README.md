@@ -24,3 +24,7 @@ npm run dev
 # or
 yarn dev
 ```
+
+If all goes well, you should see a screen like this:
+
+![Screenshot from 2021-07-26 22-20-44](https://user-images.githubusercontent.com/50345682/127079833-fa902500-a4f2-4749-967e-f0f38fd49e8d.png)
