@@ -9,7 +9,7 @@ export const Container = styled.div`
   width: 100vw;
   height: 100vh;
   padding: 1.6rem;
-  overflow: scroll;
+  overflow: auto;
 `;
 
 export const Wrapper = styled.div`
