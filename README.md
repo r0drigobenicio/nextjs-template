@@ -72,3 +72,25 @@ _To test if it's working, let's edit the **index.tsx** file in the **src/pages**
 _Remember, this happens because it is defined in the rules. You can see how to customize them in the next topic._
 
 ## Customize ESLint and Prettier rules
+
+_This project uses the ESLint recommended rules by default. So, to change them, just:_
+
+1. To customize the ESLint rules, you can change them in the **.eslintrc.json** file;
+
+_Here is a list of the ESLint rules that you can use:_
+* https://eslint.org/docs/rules/
+
+_If you prefer to use a popular style guide instead of the recommended rules, go to the next step, otherwise, just ignore it._
+
+2. To override the ESLint default settings, just run the command below and choose the desired options:
+
+```bash
+npx eslint --init
+# or
+yarn eslint --init
+```
+
+3. To customize the Prettier rules, you can edit the **prettier.config.js** file.
+
+_Here is a list of the Prettier rules that you can use:_
+* https://prettier.io/docs/en/options.html
