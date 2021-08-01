@@ -2,6 +2,12 @@
 
 This is a [Next.js](https://github.com/vercel/next.js) template project, with TypeScript, ESLint, Prettier, EditorConfig, Styled-Components and Next-Images.
 
+## About the dependencies in this template
+
+* **TypeScript**: Is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions. The advantage of using TypeScript is that it provides a way to describe the shape of an object, providing better documentation, and allowing TypeScript to validate that your code is working correctly;
+* **ESLint**: Is an open source JavaScript linting utility originally created by Nicholas C. Zakas in June 2013. Code linting is a type of static analysis that is frequently used to find problematic patterns or code that doesn't adhere to certain style guidelines. The advantage of using ESLint is that it forces you to follow best practices when writing code;
+* **Prettier**: Prettier is an opinionated code formatter with support for many languages and integration with most editors. The advantage of using Prettier is that it removes all original styling and ensures that all outputted code conforms to a consistent style;
+
 ## How to use
 
 1. Press the `Use this template` button;
@@ -51,7 +57,7 @@ _If all goes well, you should see a screen like this:_
 }
 ```
 
-_To test if it's working, let's edit the **index.tsx** file in the **src/pages** folder:_
+_To test if it's working, let's edit the **index.tsx** file in the **src/pages** folder._
 
 3. Comment the React import in the first line:
 
@@ -73,7 +79,7 @@ _Remember, this happens because it is defined in the rules. You can see how to c
 
 ## Customize ESLint and Prettier rules
 
-_This project uses the ESLint recommended rules by default. So, to change them, just:_
+_This project uses the ESLint recommended rules by default. So, to change them, follow the next step._
 
 1. To customize the ESLint rules, you can change them in the **.eslintrc.json** file;
 
@@ -94,3 +100,9 @@ yarn eslint --init
 
 _Here is a list of the Prettier rules that you can use:_
 * https://prettier.io/docs/en/options.html
+
+## References
+
+* https://www.typescriptlang.org/
+* https://eslint.org/docs/about/
+* https://prettier.io/docs/en/index.html
