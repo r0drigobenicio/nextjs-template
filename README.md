@@ -56,6 +56,8 @@ _For ESLint, Prettier and EditorConfig to work in your development environment, 
 * https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 * https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 
+_If you get some errors in the files after installing the extensions, don't worry, just go to the next step to fix it._
+
 2. Now, to automatically fix your code whenever you save a file, add the following lines to your **settings.json** file and save it:
 
 ```json
@@ -69,7 +71,7 @@ _For ESLint, Prettier and EditorConfig to work in your development environment, 
 }
 ```
 
-_To test if it's working, let's edit the **index.tsx** file in the **src/pages** folder._
+_Now, if you have errors, save the files to fix them automatically. If you haven't received any errors, let's manually test if it's working. To do that, let's edit the **index.tsx** file in the **src/pages** folder._
 
 3. Comment the React import in the first line:
 
