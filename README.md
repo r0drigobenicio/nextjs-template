@@ -71,6 +71,8 @@ _If you get some errors in the files after installing the extensions, don't worr
 }
 ```
 
+_To make sure the extensions and settings we've added will work, it's recommended that you restart your Visual Studio Code._
+
 _Now, if you have errors, save the files to fix them automatically. If you haven't received any errors, let's manually test if it's working. To do that, let's edit the **index.tsx** file in the **src/pages** folder._
 
 3. Comment the React import in the first line:
