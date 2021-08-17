@@ -1,6 +1,6 @@
 # Next.js Template
 
-This is a [Next.js](https://github.com/vercel/next.js) template project, with TypeScript, ESLint, Prettier, EditorConfig, Styled-Components, Next-Images, Commitlint and Commitizen.
+This is a [Next.js](https://github.com/vercel/next.js) template project with TypeScript, ESLint, Prettier, EditorConfig, Styled-Components, Next-Images, Commitlint and Commitizen.
 
 * [About the dependencies in this template](#about-the-dependencies-in-this-template)
 * [How to use](#how-to-use)
@@ -33,6 +33,7 @@ npm install
 # or
 yarn install
 ```
+
 This will install all project dependencies.
 
 5. Now, to view the project in your browser, run:
@@ -46,8 +47,6 @@ yarn dev
 If all goes well, you should see a screen like this:
 
 ![Screenshot from 2021-07-26 22-20-44](https://user-images.githubusercontent.com/50345682/127079833-fa902500-a4f2-4749-967e-f0f38fd49e8d.png)
-
-
 
 ## ESLint, Prettier and EditorConfig setup
 
@@ -136,7 +135,7 @@ This is because Commitlint expects to receive a valid type and subject. The acce
 
 ![Screenshot from 2021-08-14 22-13-32](https://user-images.githubusercontent.com/50345682/129463887-e71a22de-1cbc-49f1-aed8-11321a90dd9b.png)
 
-To make this easier we can use Commitizen.
+To make this easier, we can use Commitizen.
 
 3. In your terminal, just run:
 
@@ -146,7 +145,9 @@ npm run commit
 yarn commit
 ```
 
-With that, Commitizen will ask you to fill in some fields. And your commit will be done following the conventional commits rules.
+With that, Commitizen will ask you to fill in some fields. And your commit will be done following the conventional commits rules:
+
+![Screenshot from 2021-08-16 21-10-19](https://user-images.githubusercontent.com/50345682/129644223-34aabda5-a0ea-40db-b046-a512e2b80f25.png)
 
 ## References
 
